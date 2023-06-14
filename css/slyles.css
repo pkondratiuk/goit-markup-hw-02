@@ -8,6 +8,25 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.title-block {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.title-section {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
 }
 
 .link {
@@ -18,28 +37,25 @@ body {
   list-style: none;
 }
 
+.logo {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
 /**
   |============================
   | Header styles
   |============================
 */
-.logo-web {
-  font-family: "Raleway";
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+.web {
   color: #4d5ae5;
 }
 
-.logo-studio {
-  font-family: "Raleway";
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+.dark-studio {
   color: #2e2f42;
 }
 
@@ -53,10 +69,6 @@ body {
 
 .nav-list:hover,
 .nav-list:focus {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #404bbf;
 }
 
@@ -69,9 +81,6 @@ body {
 
 .adress-list:hover,
 .adress-list:focus {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #404bbf;
 }
 
@@ -101,6 +110,34 @@ body {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  color: #ffffff;
   background-color: #404bbf;
+}
+
+/**
+  |============================
+  | Styles section team
+  |============================
+*/
+.title-team {
+  text-align: center;
+}
+.text-team {
+  text-align: center;
+}
+
+/**
+  |============================
+  | Styles footer
+  |============================
+*/
+.footer {
+  background-color: #2e2f42;
+}
+
+.light-studio {
+  color: #f4f4fd;
+}
+
+.text-footer {
+  color: #f4f4fd;
 }
