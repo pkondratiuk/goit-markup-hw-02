@@ -75,6 +75,7 @@ body {
 .nav-list:hover,
 .nav-list:focus {
   color: #404bbf;
+  cursor: pointer;
 }
 
 .adress-list {
