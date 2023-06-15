@@ -31,6 +31,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -43,7 +44,7 @@ body {
 }
 
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -75,13 +76,15 @@ body {
 .nav-list:hover,
 .nav-list:focus {
   color: #404bbf;
-  cursor: pointer;
 }
-
-.adress-list {
+.adress {
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.adress-list {
   color: #434455;
 }
 
@@ -107,6 +110,7 @@ body {
   color: #ffffff;
 }
 .hero-btn {
+  font-family: "Roboto", sans-serif;
   color: #ffffff;
   font-weight: 500;
   font-size: 16px;
@@ -118,6 +122,7 @@ body {
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #404bbf;
+  cursor: pointer;
 }
 
 /**
