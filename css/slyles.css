@@ -127,16 +127,42 @@ body {
 
 /**
   |============================
+  | Styles future
+  |============================
+*/
+
+.text-future {
+  letter-spacing: 0.02em;
+}
+
+/**
+  |============================
+  | What doing
+  |============================
+*/
+.title-do {
+  text-transform: capitalize;
+}
+/**
+  |============================
   | Styles section team
   |============================
 */
+.team {
+  background-color: #f4f4fd;
+}
 .title-team {
+  letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
 }
 .text-team {
   text-align: center;
 }
 
+.list-title {
+  background-color: #ffffff;
+}
 /**
   |============================
   | Styles footer
