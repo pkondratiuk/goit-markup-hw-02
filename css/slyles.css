@@ -8,6 +8,7 @@
   --popular-text-cl: #434455;
   --btn-cl: #4d5ae5;
   --btn-bg-cl: #f4f4fd;
+  --title-cl: #2e2f42;
 }
 
 body {
@@ -26,7 +27,7 @@ body {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  color: #2e2f42;
+  color: var(--title-cl);
 }
 
 .title-section {
@@ -34,7 +35,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-cl);
 }
 
 .link {
@@ -203,4 +204,23 @@ body {
   color: #ffffff;
   background-color: #404bbf;
   cursor: pointer;
+}
+
+.portfolio-title {
+  font-family: "Roboto", sans-serif;
+  color: var(--title-cl);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--popular-text-cl);
 }
